@@ -2,7 +2,10 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <chrono>
 #include "WineReview.h"
+#include "QuickSort.h"
+
 using namespace std;
 
 vector<WineReview> readCSV(const string& filename) {
@@ -118,12 +121,9 @@ void mergeSort(vector<WineReview>& arr, int left, int right) {
     }
 }
 
-
-void quickSort(vector<WineReview>& data, const string& field, bool isAscending) {
-    cout << "Doesn't work yet" << endl;
-}
-
 int main() {
+    auto start = chrono::high_resolution_clock::now();
+    
     cout << "Initializing data..." << endl;
     string filename = "winemag-data.csv";
     vector<WineReview> reviews = readCSV(filename);
@@ -153,12 +153,21 @@ int main() {
         default: cout << "Invalid choice." << endl; return 1;
     }
 
+    string typeOfAlgorithm = "null";
     switch (algorithmSelect) {
-        case 1: sort_field = field;mergeSort(reviews, 0, reviews.size() - 1); break;
-        case 2: quickSort(reviews, field, isAscending); break;
+    case 1: start = chrono::high_resolution_clock::now();  sort_field = field; mergeSort(reviews, 0, reviews.size() - 1); typeOfAlgorithm = "Mergesort"; break;
+    case 2: start = chrono::high_resolution_clock::now();  quicksort(reviews, field, isAscending); typeOfAlgorithm = "Quicksort"; break;
         default: cout << "Invalid choice." << endl; return 1;
     }
-    
+    auto end = chrono::high_resolution_clock::now();
+
+    chrono::duration<double, milli> duration = end - start;
+    if (typeOfAlgorithm != "null")
+    {
+        cout << typeOfAlgorithm << " took " << duration.count() << " ms/n" << endl;
+    }
+
+    cout << "Attempting to write to output.csv..." << endl;
     writeToFile(reviews, "output.csv");
     cout << "Saved to output.csv" << endl;
     return 0;

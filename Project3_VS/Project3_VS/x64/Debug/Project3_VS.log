@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Project-3-Databases\QuickSort.h(98,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../main.cpp')
+  
+D:\Project-3-Databases\main.cpp(158,117): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Project3_VS.vcxproj -> D:\Project-3-Databases\Project3_VS\x64\Debug\Project3_VS.exe
