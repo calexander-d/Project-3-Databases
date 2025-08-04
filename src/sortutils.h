@@ -1,16 +1,24 @@
+//
+// Created by Brent Engle on 8/1/25.
+//
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
 #include <vector>
 #include <chrono>
-#include "WineReview.h"
+#include "../WineReview.h"
 #include "QuickSort.h"
 
 using namespace std;
 
 vector<WineReview> readCSV(const string& filename) {
+    cout << "Reading data..." << endl;
     vector<WineReview> data;
     ifstream file(filename);
+    if (!file.is_open()) {
+        cerr << "Could not open file " << filename << endl;
+    }
     string line;
     getline(file, line);
 
@@ -119,56 +127,4 @@ void mergeSort(vector<WineReview>& arr, int left, int right) {
         // Merge subarrays
         merge(arr, left, mid, right);
     }
-}
-
-int main() {
-    auto start = chrono::high_resolution_clock::now();
-    
-    cout << "Initializing data..." << endl;
-    string filename = "winemag-data.csv";
-    vector<WineReview> reviews = readCSV(filename);
-    cout << "Loaded " << reviews.size() << " wine reviews." << endl;
-
-    int fieldSelect, sortOrder, algorithmSelect;
-    bool isAscending;
-    cout << "Choose a field to sort by:\n1. Region\n2. Price\n3. Points" << endl;
-    cin >> fieldSelect;
-
-    cout << "Choose order:\n1. Ascending\n2. Descending"<< endl;
-    cin >> sortOrder;
-
-    cout << "Choose sorting algorithm:\n1. Merge Sort\n2. Quick Sort" << endl;
-    cin >> algorithmSelect;
-
-    string field;
-    switch (fieldSelect) {
-        case 1: field = "region_1"; break;
-        case 2: field = "price"; break;
-        case 3: field = "points"; break;
-        default: cout << "Invalid choice." << endl; return 1;
-    }
-    switch (sortOrder) {
-        case 1: isAscending = true; break;
-        case 2: isAscending = false; break;
-        default: cout << "Invalid choice." << endl; return 1;
-    }
-
-    string typeOfAlgorithm = "null";
-    switch (algorithmSelect) {
-    case 1: start = chrono::high_resolution_clock::now();  sort_field = field; mergeSort(reviews, 0, reviews.size() - 1); typeOfAlgorithm = "Mergesort"; break;
-    case 2: start = chrono::high_resolution_clock::now();  quicksort(reviews, field, isAscending); typeOfAlgorithm = "Quicksort"; break;
-        default: cout << "Invalid choice." << endl; return 1;
-    }
-    auto end = chrono::high_resolution_clock::now();
-
-    chrono::duration<double, milli> duration = end - start;
-    if (typeOfAlgorithm != "null")
-    {
-        cout << typeOfAlgorithm << " took " << duration.count() << " ms/n" << endl;
-    }
-
-    cout << "Attempting to write to output.csv..." << endl;
-    writeToFile(reviews, "output.csv");
-    cout << "Saved to output.csv" << endl;
-    return 0;
 }
