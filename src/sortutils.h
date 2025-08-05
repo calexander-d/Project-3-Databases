@@ -7,7 +7,7 @@
 #include <sstream>
 #include <vector>
 #include <chrono>
-#include "../WineReview.h"
+#include "WineReview.h"
 #include "QuickSort.h"
 
 using namespace std;

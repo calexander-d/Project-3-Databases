@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Wine_Finder" targetName="Wine_Finder" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c70fd48-129b-4786-9785-3ab0dcc8e661" name="Changes" comment="Reloaded Cmake for easier download/ no code altering changes made">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/QtSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project-3-Databases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project-3-Databases.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/FileContentIndex/1f21e5ad-863e-4d7e-9b44-0b81b253faf6.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/FileContentIndex/471715e0-d475-4423-84ba-23d2a2684d50.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/FileContentIndex/634773a9-8c30-4800-9137-4ceab685203f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/FileContentIndex/660f4253-660d-4291-a3af-f12dbe0210c1.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/FileContentIndex/69abd09f-5d2a-4bfb-a4e5-0f2231c927fb.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/v17/.wsuo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Project-3-Databases/v17/ipch/AutoPCH/5e38d79e06a8f199/MAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/FileContentIndex/2c3b700a-3203-4671-a732-16d62734eb9f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/FileContentIndex/31294bf0-0f14-4b81-9da5-f5cb1fd7e80d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/FileContentIndex/6c3da0d0-7e4e-4c5f-909d-b98907dde8a5.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/FileContentIndex/91692dbd-16e8-4a40-a86a-4215eb0fb954.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/FileContentIndex/c9af41ef-cd7f-418a-831b-ed24e4aee2f9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/ipch/AutoPCH/3cb2d56e765a1cab/QUICKSORT.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/ipch/AutoPCH/6e419a94b9b940e8/MAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/ipch/AutoPCH/831ea4f8d92f5d94/VCTMP600_410772.MAIN.00000000.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/.vs/Project3_VS/v17/ipch/AutoPCH/bb86a0b49acddfd3/QUICKSORT.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/Project3_VS.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/Project3_VS.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/Project3_VS.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/winemag-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_5_25,_5_09 PM_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/Cl.items.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/Project3_VS.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/link.secondary.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/Project3_VS.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/Project3_VS/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/x64/Debug/Project3_VS.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3_VS/x64/Debug/Project3_VS.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortutils.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "brentengle"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/calexander-d/Project-3-Databases.git",
+    "accountId": "0ac158b2-c686-43dd-b242-e5ae7a67809f"
+  }
+}]]></component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="1.3" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="30sswG4fVuR1b0b0bCYxFsOcLwh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Wine_Finder.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wine_Finder" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Wine_Finder" TARGET_NAME="Wine_Finder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Wine_Finder" RUN_TARGET_NAME="Wine_Finder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c70fd48-129b-4786-9785-3ab0dcc8e661" name="Changes" comment="" />
+      <created>1754427851970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754427851970</updated>
+      <workItem from="1754427853085" duration="544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reloaded Cmake for easier download/ no code altering changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reloaded Cmake for easier download/ no code altering changes made" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/mainwindow.cpp</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/sortutils.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/sortutils.h</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,11 +1,10 @@
-#include "../mainwindow.h"
+#include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "../QuickSort.h"
-#include "../sortutils.h"
+#include "QuickSort.h"
+#include "sortutils.h"
 #include <QStandardItemModel>
 #include <QTime>
 #include <fstream>
-#pragma once
 
 #include <sstream>
 
